@@ -1,0 +1,47 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.luoyu.springinitializrdemo.bean.Person",
+      "sourceType": "com.luoyu.springinitializrdemo.bean.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.age",
+      "type": "java.lang.String",
+      "sourceType": "com.luoyu.springinitializrdemo.bean.Person"
+    },
+    {
+      "name": "person.birth",
+      "type": "java.util.Date",
+      "sourceType": "com.luoyu.springinitializrdemo.bean.Person"
+    },
+    {
+      "name": "person.boss",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.luoyu.springinitializrdemo.bean.Person"
+    },
+    {
+      "name": "person.dog",
+      "type": "com.luoyu.springinitializrdemo.bean.Dog",
+      "sourceType": "com.luoyu.springinitializrdemo.bean.Person"
+    },
+    {
+      "name": "person.last-name",
+      "type": "java.lang.String",
+      "sourceType": "com.luoyu.springinitializrdemo.bean.Person"
+    },
+    {
+      "name": "person.list",
+      "type": "java.util.List<java.lang.Object>",
+      "sourceType": "com.luoyu.springinitializrdemo.bean.Person"
+    },
+    {
+      "name": "person.maps",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.luoyu.springinitializrdemo.bean.Person"
+    }
+  ],
+  "hints": []
+}
