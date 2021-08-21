@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springBootHello/springBootHello.iml" filepath="$PROJECT_DIR$/springBootHello/springBootHello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springInitializrDemo/springInitializrDemo.iml" filepath="$PROJECT_DIR$/springInitializrDemo/springInitializrDemo.iml" />
+    </modules>
+  </component>
+</project>

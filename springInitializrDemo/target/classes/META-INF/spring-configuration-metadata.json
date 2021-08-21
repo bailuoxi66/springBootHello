@@ -30,6 +30,7 @@
     {
       "name": "person.last-name",
       "type": "java.lang.String",
+      "description": "<bean class=\"Person\">      <property name=\"lastName\" value=\"?\" <\/property> <\/bean> 分析下：value支持什么？字面量\/${key}从环境变量、配置文件中获取\/#{SpEL}",
       "sourceType": "com.luoyu.springinitializrdemo.bean.Person"
     },
     {

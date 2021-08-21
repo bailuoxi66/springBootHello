@@ -1,15 +1,17 @@
 server:
   port: 8081
+spring:
+  profiles:
+    active: prod
+---
 
-person:
-  age: 18
-  boss: false
-  birth: 2017/12/12
-  maps: {k1: v1, k2: v2}
-  list:
-    - lisi
-    - zhaoliu
-  dog:
-    name: xiaogou
-    age: 2
-  last-name: zhangsna
+server:
+  port: 8082
+spring:
+  profiles: dev
+---
+
+server:
+  port: 8083
+spring:
+  profiles: prod
